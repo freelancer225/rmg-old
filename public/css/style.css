@@ -1,0 +1,157 @@
+body{
+	background: #f4f4f4;
+	font-family: montserrat;
+}
+
+/*Login*/
+.form-signin-heading{
+  text-align: center;
+}
+.form-signin{
+  width:300px;
+  margin: 0 auto;
+}
+/**/
+
+.navbar{
+	min-height: 33px !important;
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.navbar-nav > li > a , .navbar-brand{
+	padding-top: 6px !important;
+	padding-bottom: 0 !important;
+	height: 33px;
+}
+
+.navbar-nav .name {
+  padding-top: 3px;
+  padding-bottom: 0 !important;
+ 
+}
+
+.navbar-default {
+  background-color: #3480c7;
+  border-color: #1f599a;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #bce7ff;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a,p {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #bce7ff;
+}
+
+.navbar-default .navbar-nav > li > p:hover{
+  cursor: pointer;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #bce7ff;
+  background-color: #1f599a;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #bce7ff;
+  background-color: #1f599a;
+}
+.navbar-default .navbar-toggle {
+  border-color: #1f599a;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #1f599a;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #bce7ff;
+}
+
+
+/* Custom */
+.main-color-bg{
+  background-color: #3480c7 !important;
+  border-color: #1f599a !important;
+  color: #fff !important;
+}
+
+.general label{
+  width: 120px !important;
+}
+
+
+/* Header */
+#header{
+	background: #333333;
+	color:#ffffff;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}
+
+#header .create {
+	padding-top: 20px;
+}
+
+/* Breadcrumb*/
+.breadcrumb{
+	background: #cccccc;
+	color: #333333;
+}
+
+.breadcrumb a{
+	color: #333333;
+}
+
+
+/* Progrees Bars*/
+.progress-bar{
+	background: #333333;
+	color: #fff;
+}
+
+.dash-box{
+	text-align: center;
+}
+
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #bce7ff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #bce7ff;
+    background-color: #1f599a;
+  }
+}
+
+td p{
+  color: #000 !important;
+}
